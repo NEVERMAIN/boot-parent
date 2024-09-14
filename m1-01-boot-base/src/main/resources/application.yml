@@ -1,0 +1,24 @@
+server:
+  port: 9081
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: boot-base
+
+### ????
+logging:
+  level:
+    root: info
+  file:
+    path: ./
+    name: logs/${spring.application.name}.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %contextName [%thread] %-5level %logger- %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} %contextName [%thread] %-5level %logger- %msg%n"
+  logback:
+    rolling-policy:
+      max-history: 7
+      max-file-size: 10MB
+      total-size-cap: 50MB

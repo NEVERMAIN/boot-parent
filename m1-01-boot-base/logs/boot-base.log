@@ -1,0 +1,9 @@
+2024-09-14 17:38:21 default [main] INFO  com.openicu.base.Application- Starting Application using Java 17.0.11 with PID 11600 (D:\code1024\SpringBoot3\m1-01-boot-base\target\classes started by 666 in D:\code1024\SpringBoot3\m1-01-boot-base)
+2024-09-14 17:38:21 default [main] INFO  com.openicu.base.Application- No active profile set, falling back to 1 default profile: "default"
+2024-09-14 17:38:21 default [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port 9081 (http)
+2024-09-14 17:38:21 default [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2024-09-14 17:38:21 default [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-14 17:38:21 default [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2024-09-14 17:38:21 default [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 650 ms
+2024-09-14 17:38:22 default [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port 9081 (http) with context path '/'
+2024-09-14 17:38:22 default [main] INFO  com.openicu.base.Application- Started Application in 1.602 seconds (process running for 2.13)

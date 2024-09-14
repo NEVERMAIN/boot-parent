@@ -1,0 +1,36 @@
+server:
+  port: 9081
+  tomcat:
+    mbeanregistry:
+      enabled: true
+
+spring:
+  application:
+    name: boot-senior
+
+  # 邮件配置
+  mail:
+    host: smtp.qq.com
+    port: 465
+    protocol: smtps
+    username:
+    password:
+    properties:
+      mail.smtp.ssl.enable: true
+
+# 应用监控配置
+management:
+  endpoints:
+    web:
+      exposure:
+        # 打开所有的监控点
+        include: "*"
+      base-path: /monitor
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+    beans:
+      enabled: true
+    shutdown:
+      enabled: true
